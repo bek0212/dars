@@ -1,0 +1,30 @@
+.imganim{
+    transition: all ease 5s;
+    transform: rotate(350deg);
+    margin-left: 200px;
+}
+.imganim2{
+    transition: all ease 5s;
+    transform:matrix(350deg);
+    margin-right: 200px;
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+button{
+    background-color: rgb(111, 242, 107);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+button:active{
+    background-color: rgb(0, 255, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: Arial;
+}
